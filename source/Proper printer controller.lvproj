@@ -20,7 +20,7 @@
 			</Item>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="pp_logo_thumbnail_TyH_icon.ico" Type="Document" URL="../../../../Corporate/Branding/Proper printing/pp_logo_thumbnail_TyH_icon.ico"/>
+		<Item Name="pp_logo_thumbnail.ico" Type="Document" URL="../pp_logo_thumbnail.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Marlin Instrument Driver.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Marlin Instrument Driver/Marlin Instrument Driver.lvlib"/>
@@ -86,7 +86,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DA4C8A85-10AC-487E-9E3C-8D3439422D22}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PPC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../binaries/PPC/PPC.exe</Property>
@@ -97,8 +97,8 @@
 				<Property Name="Destination[1].path" Type="Path">../binaries/PPC/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/pp_logo_thumbnail_TyH_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{34FA3582-5644-4B23-B039-D4F43312CC6E}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/pp_logo_thumbnail.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{157757E2-9D71-4BE0-B0E7-E97D5C4ECB0A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
