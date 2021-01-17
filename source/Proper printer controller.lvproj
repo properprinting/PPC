@@ -10,14 +10,27 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="support" Type="Folder">
-			<Item Name="controls" Type="Folder">
-				<Item Name="message cluster.ctl" Type="VI" URL="../controls/message cluster.ctl"/>
+		<Item Name="controls" Type="Folder">
+			<Item Name="message cluster.ctl" Type="VI" URL="../controls/message cluster.ctl"/>
+		</Item>
+		<Item Name="subVI&apos;s" Type="Folder">
+			<Item Name="support" Type="Folder">
+				<Item Name="case_initialize.vi" Type="VI" URL="../subVI&apos;s/support/case_initialize.vi"/>
+				<Item Name="case_load_gcode.vi" Type="VI" URL="../subVI&apos;s/support/case_load_gcode.vi"/>
+				<Item Name="case_move.vi" Type="VI" URL="../subVI&apos;s/support/case_move.vi"/>
+				<Item Name="case_pause_torture.vi" Type="VI" URL="../subVI&apos;s/support/case_pause_torture.vi"/>
+				<Item Name="case_request_data.vi" Type="VI" URL="../subVI&apos;s/support/case_request_data.vi"/>
+				<Item Name="case_run_gcode.vi" Type="VI" URL="../subVI&apos;s/support/case_run_gcode.vi"/>
+				<Item Name="case_safe.vi" Type="VI" URL="../subVI&apos;s/support/case_safe.vi"/>
+				<Item Name="case_start_torture.vi" Type="VI" URL="../subVI&apos;s/support/case_start_torture.vi"/>
+				<Item Name="case_stop_gcode.vi" Type="VI" URL="../subVI&apos;s/support/case_stop_gcode.vi"/>
+				<Item Name="case_torture.vi" Type="VI" URL="../subVI&apos;s/support/case_torture.vi"/>
+				<Item Name="case_update_printer.vi" Type="VI" URL="../subVI&apos;s/support/case_update_printer.vi"/>
+				<Item Name="consumer_loop.vi" Type="VI" URL="../subVI&apos;s/support/consumer_loop.vi"/>
+				<Item Name="get control class.vim" Type="VI" URL="../subVI&apos;s/support/get control class.vim"/>
+				<Item Name="read Gcode.vi" Type="VI" URL="../subVI&apos;s/support/read Gcode.vi"/>
 			</Item>
-			<Item Name="subVI&apos;s" Type="Folder">
-				<Item Name="Gcode simulator.vi" Type="VI" URL="../subVI&apos;s/Gcode simulator.vi"/>
-				<Item Name="read Gcode.vi" Type="VI" URL="../subVI&apos;s/read Gcode.vi"/>
-			</Item>
+			<Item Name="Gcode simulator.vi" Type="VI" URL="../subVI&apos;s/Gcode simulator.vi"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="pp_logo_thumbnail.ico" Type="Document" URL="../pp_logo_thumbnail.ico"/>
